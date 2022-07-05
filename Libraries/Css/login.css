@@ -1,0 +1,51 @@
+.pas {
+  color: rgb(14, 14, 121);
+  font-weight: bold;
+}
+
+body {
+  background-color: #333a56;
+}
+
+.card {
+  background-color: #50597ec4;
+  box-shadow: 3px 5px 9px 6px #000000;
+  margin-top: 7%;
+}
+
+h3 {
+  font-weight: bold;
+  color: #022239;
+  font-size: 5vh;
+  border-radius: 5px;
+}
+
+@media (max-width: 1024px) {
+  .card {
+    margin-top: 20%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin-top: 16%;
+  }
+}
+
+@media (max-width: 360px) {
+  .card {
+    margin-top: 5%;
+  }
+}
+.btn {
+  width: 60%;
+}
+
+.feild {
+  width: 85%;
+  padding: 12px 20px;
+}
+
+.check {
+  margin-left: 5px;
+}
